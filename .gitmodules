@@ -1,3 +1,6 @@
 [submodule "DMH_Mixer_PANEL/Libraries/SynthStuff"]
 	path = DMH_Mixer_PANEL/Libraries/SynthStuff
 	url = https://github.com/DeMarco/KiCad-Lib-SynthStuff.git
+[submodule "DMH_Mixer_PCB/Libraries/SynthStuff"]
+	path = DMH_Mixer_PCB/Libraries/SynthStuff
+	url = https://github.com/DeMarco/KiCad-Lib-SynthStuff.git
