@@ -62,7 +62,7 @@
 			(uuid "0197176f-d754-4695-b74f-89d14faa0aea")
 		)
 		(instances
-			(project "DMH-Kosmo-5cm-PCB"
+			(project "DMH_Mixer_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "4")
 				)
@@ -70,8 +70,8 @@
 		)
 	)
 	(sheet
-		(at 120.65 80.01)
-		(size 41.91 38.1)
+		(at 49.53 85.09)
+		(size 41.91 33.02)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -82,7 +82,7 @@
 		)
 		(uuid "7ad2d702-dfb7-4d49-a82d-34430dd5948f")
 		(property "Sheetname" "Core Circuit"
-			(at 120.65 79.2984 0)
+			(at 49.53 84.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -91,7 +91,7 @@
 			)
 		)
 		(property "Sheetfile" "Core_Circuit.kicad_sch"
-			(at 120.65 118.6946 0)
+			(at 49.53 118.6946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -100,8 +100,68 @@
 				(hide yes)
 			)
 		)
+		(pin "Input 3" input
+			(at 49.53 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "be713f0a-ed3d-49e2-bad2-a2824caf963d")
+		)
+		(pin "Input 1" input
+			(at 49.53 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "87dacb03-5d5d-41ec-8d69-f24b10071057")
+		)
+		(pin "Input 2" input
+			(at 49.53 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ff39cb94-c18b-4348-bcbb-f53ab4becba5")
+		)
+		(pin "Clipped Output" input
+			(at 49.53 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b44b7087-031a-4d0c-8640-236e6277d7cf")
+		)
+		(pin "Output +" input
+			(at 49.53 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e5652c30-cf4f-4f9e-a8bc-373cfe0d9098")
+		)
+		(pin "Output -" input
+			(at 49.53 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9cbc8a23-9d90-4060-b4dc-48d6ecf3bf15")
+		)
 		(instances
-			(project "DMH-Kosmo-5cm-PCB"
+			(project "DMH_Mixer_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "3")
 				)
@@ -109,8 +169,8 @@
 		)
 	)
 	(sheet
-		(at 17.78 17.78)
-		(size 20.32 118.11)
+		(at 17.78 76.2)
+		(size 20.32 50.8)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -121,7 +181,7 @@
 		)
 		(uuid "ce3fef8b-9f1d-4178-b50b-4a046c030679")
 		(property "Sheetname" "Inputs and Outputs"
-			(at 17.78 17.0684 0)
+			(at 17.78 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -130,7 +190,7 @@
 			)
 		)
 		(property "Sheetfile" "Inputs_and_Outputs.kicad_sch"
-			(at 17.78 136.4746 0)
+			(at 17.78 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -139,8 +199,68 @@
 				(hide yes)
 			)
 		)
+		(pin "Input 1 Jack" output
+			(at 38.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7b617360-e3e5-4b1f-b53f-3c4c9962eeea")
+		)
+		(pin "Input 2 Jack" output
+			(at 38.1 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3b21ea09-a165-4621-976d-618d1fe43361")
+		)
+		(pin "Input 3 Jack" output
+			(at 38.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "adc5b924-f388-466a-a9ba-ec9278fe912f")
+		)
+		(pin "Output - Jack" input
+			(at 38.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2bcb9e34-83c9-4b86-bcce-78c0146b1687")
+		)
+		(pin "Output + Jack" input
+			(at 38.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9c2361d8-21f6-459b-a5c3-814c783b040b")
+		)
+		(pin "Output Clipped" input
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0ec817d7-57d0-497a-a723-53ea6e9c7180")
+		)
 		(instances
-			(project "DMH-Kosmo-5cm-PCB"
+			(project "DMH_Mixer_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "2")
 				)
