@@ -682,17 +682,6 @@
 					(hide yes)
 				)
 			)
-			(property "Function" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.254)
-						(bold yes)
-						(italic yes)
-					)
-				)
-			)
 			(property "ki_keywords" "mono audio jack receptacle 6.35mm TS connector tip switch"
 				(at 0 0 0)
 				(effects
@@ -1057,16 +1046,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.1149 53.34) (xy 99.1149 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13e00e3d-4f96-4ef2-9268-abb7bc979aef")
-	)
-	(wire
-		(pts
 			(xy 43.18 104.14) (xy 101.6 104.14)
 		)
 		(stroke
@@ -1227,13 +1206,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.1149 71.12) (xy 121.92 71.12)
+			(xy 99.06 71.12) (xy 121.92 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "47fe643a-e4df-4105-af30-774a5ddbc510")
+		(uuid "47a9972e-2d1f-4e39-919c-2c5fa476169d")
 	)
 	(wire
 		(pts
@@ -1477,16 +1456,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 53.34) (xy 99.1149 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88d5c0c8-5b30-401a-aaf3-91963136ac76")
-	)
-	(wire
-		(pts
 			(xy 50.8 99.06) (xy 50.8 73.66)
 		)
 		(stroke
@@ -1697,6 +1666,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 53.34) (xy 99.06 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9d253c1-8bb4-4915-94de-c7991b7d45d4")
+	)
+	(wire
+		(pts
 			(xy 199.39 82.55) (xy 190.5 82.55)
 		)
 		(stroke
@@ -1734,6 +1713,16 @@
 			(type default)
 		)
 		(uuid "d2c18b6d-b2fc-470a-94cf-628a02e70481")
+	)
+	(wire
+		(pts
+			(xy 43.18 53.34) (xy 99.06 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d595bb13-b500-4546-a5e9-73b5daa5023f")
 	)
 	(wire
 		(pts
@@ -2038,7 +2027,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
 			(at 127 121.92 0)
 			(effects
 				(font
@@ -2249,7 +2238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fdad586-8adf-4317-bb51-bfb3f755833f")
-		(property "Reference" "J7"
+		(property "Reference" "J200"
 			(at 190.5 62.23 0)
 			(effects
 				(font
@@ -2292,6 +2281,14 @@
 				(hide yes)
 			)
 		)
+		(property "Function" ""
+			(at 190.5 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "efba6fce-5b61-4935-a780-5b7d32bd7ac8")
 		)
@@ -2325,7 +2322,7 @@
 		(instances
 			(project ""
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
-					(reference "J7")
+					(reference "J200")
 					(unit 1)
 				)
 			)
@@ -2520,7 +2517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
 			(at 127 73.66 0)
 			(effects
 				(font

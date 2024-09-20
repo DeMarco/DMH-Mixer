@@ -10,8 +10,68 @@
 		(comment 1 "PCB for 5 cm Kosmo format synthesizer module")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 38.1 88.9) (xy 50.8 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0359fc0e-5382-4290-9221-cdcd0ba2961e")
+	)
+	(wire
+		(pts
+			(xy 38.1 114.3) (xy 50.8 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27b05245-1b8d-4ca6-9069-813800392c2a")
+	)
+	(wire
+		(pts
+			(xy 38.1 92.71) (xy 50.8 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "420c7393-0261-4e23-9726-26408482326e")
+	)
+	(wire
+		(pts
+			(xy 38.1 96.52) (xy 50.8 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd80744e-0df9-49d5-88f1-18dae07b97c3")
+	)
+	(wire
+		(pts
+			(xy 38.1 110.49) (xy 50.8 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddb9f17f-738a-438b-9b01-b3377061333a")
+	)
+	(wire
+		(pts
+			(xy 38.1 106.68) (xy 50.8 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3aeaf34-6185-4b16-9aa0-48f9794c07bd")
+	)
 	(sheet
-		(at 260.35 16.51)
+		(at 101.6 87.63)
 		(size 20.32 27.94)
 		(fields_autoplaced yes)
 		(stroke
@@ -23,7 +83,7 @@
 		)
 		(uuid "0cdf34b2-39cd-4d9e-981a-97cd34791509")
 		(property "Sheetname" "Power"
-			(at 260.35 15.7984 0)
+			(at 101.6 86.9184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +92,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 260.35 45.0346 0)
+			(at 101.6 116.1546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,26 +100,6 @@
 				(justify left top)
 				(hide yes)
 			)
-		)
-		(pin "Bus Gate" output
-			(at 260.35 25.4 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "35434339-bc2b-4868-9a18-95483283b276")
-		)
-		(pin "Bus CV" output
-			(at 260.35 34.29 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "0197176f-d754-4695-b74f-89d14faa0aea")
 		)
 		(instances
 			(project "DMH_Mixer_PCB"
@@ -70,8 +110,8 @@
 		)
 	)
 	(sheet
-		(at 49.53 85.09)
-		(size 41.91 33.02)
+		(at 50.8 85.09)
+		(size 38.1 33.02)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -82,7 +122,7 @@
 		)
 		(uuid "7ad2d702-dfb7-4d49-a82d-34430dd5948f")
 		(property "Sheetname" "Core Circuit"
-			(at 49.53 84.3784 0)
+			(at 50.8 84.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -91,7 +131,7 @@
 			)
 		)
 		(property "Sheetfile" "Core_Circuit.kicad_sch"
-			(at 49.53 118.6946 0)
+			(at 50.8 118.6946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -101,7 +141,7 @@
 			)
 		)
 		(pin "Input 3" input
-			(at 49.53 96.52 180)
+			(at 50.8 96.52 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -111,7 +151,7 @@
 			(uuid "be713f0a-ed3d-49e2-bad2-a2824caf963d")
 		)
 		(pin "Input 1" input
-			(at 49.53 88.9 180)
+			(at 50.8 88.9 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -121,7 +161,7 @@
 			(uuid "87dacb03-5d5d-41ec-8d69-f24b10071057")
 		)
 		(pin "Input 2" input
-			(at 49.53 92.71 180)
+			(at 50.8 92.71 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -130,35 +170,35 @@
 			)
 			(uuid "ff39cb94-c18b-4348-bcbb-f53ab4becba5")
 		)
-		(pin "Clipped Output" input
-			(at 49.53 114.3 180)
+		(pin "Clipped Output" output
+			(at 50.8 106.68 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b44b7087-031a-4d0c-8640-236e6277d7cf")
+			(uuid "41f612df-e051-4990-9860-655b0a9f84d4")
 		)
-		(pin "Output +" input
-			(at 49.53 110.49 180)
+		(pin "Output -" output
+			(at 50.8 110.49 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e5652c30-cf4f-4f9e-a8bc-373cfe0d9098")
+			(uuid "645d2751-c506-467b-9b92-e4f3c69dd6d7")
 		)
-		(pin "Output -" input
-			(at 49.53 106.68 180)
+		(pin "Output +" output
+			(at 50.8 114.3 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9cbc8a23-9d90-4060-b4dc-48d6ecf3bf15")
+			(uuid "79f3edfa-dfc6-4d02-8bfc-b3cad1b1965e")
 		)
 		(instances
 			(project "DMH_Mixer_PCB"
