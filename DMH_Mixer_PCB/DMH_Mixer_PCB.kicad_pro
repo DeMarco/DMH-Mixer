@@ -178,7 +178,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -444,7 +445,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "DMH-Kosmo-5cm-PCB.kicad_pro",
+    "filename": "DMH_Mixer_PCB.kicad_pro",
     "version": 1
   },
   "net_settings": {
