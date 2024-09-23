@@ -1874,6 +1874,18 @@
 		)
 		(uuid 7d3c4467-757a-451e-b032-571da8cc216f)
 	)
+	(circle
+		(center 139.7 120.65)
+		(radius 6.35)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9a59aa83-a16e-4c35-873f-e2f111d32a62)
+	)
 	(text "Not necessary, just here in order to not leave idle\none of the OpAmps in the chip."
 		(exclude_from_sim no)
 		(at 114.3 23.114 0)
@@ -1883,6 +1895,16 @@
 			)
 		)
 		(uuid "a545c5bf-7a25-41e0-962c-10f29b2dc68a")
+	)
+	(text "10k to be tested"
+		(exclude_from_sim no)
+		(at 148.844 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bf677afc-d56e-47d3-af81-9deb3109d4b6")
 	)
 	(hierarchical_label "Output +"
 		(shape output)
