@@ -22,13 +22,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 114.3) (xy 50.8 114.3)
+			(xy 38.1 110.49) (xy 50.8 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27b05245-1b8d-4ca6-9069-813800392c2a")
+		(uuid "17e4b383-589c-43bb-9ebe-a3804d2a2635")
 	)
 	(wire
 		(pts
@@ -42,6 +42,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 106.68) (xy 50.8 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f03ae81-22e1-4609-9a59-b18dd806ddc0")
+	)
+	(wire
+		(pts
 			(xy 38.1 96.52) (xy 50.8 96.52)
 		)
 		(stroke
@@ -52,23 +62,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 110.49) (xy 50.8 110.49)
+			(xy 38.1 100.33) (xy 50.8 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ddb9f17f-738a-438b-9b01-b3377061333a")
-	)
-	(wire
-		(pts
-			(xy 38.1 106.68) (xy 50.8 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3aeaf34-6185-4b16-9aa0-48f9794c07bd")
+		(uuid "f0d355d2-1436-46fa-9666-2adcf7da436b")
 	)
 	(sheet
 		(at 101.6 87.63)
@@ -171,7 +171,7 @@
 			(uuid "ff39cb94-c18b-4348-bcbb-f53ab4becba5")
 		)
 		(pin "Clipped Output" output
-			(at 50.8 106.68 180)
+			(at 50.8 110.49 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -180,25 +180,25 @@
 			)
 			(uuid "41f612df-e051-4990-9860-655b0a9f84d4")
 		)
-		(pin "Output -" output
-			(at 50.8 110.49 180)
+		(pin "Output" output
+			(at 50.8 106.68 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "645d2751-c506-467b-9b92-e4f3c69dd6d7")
+			(uuid "f942ebe1-0ab3-4b61-a171-9a61b938810e")
 		)
-		(pin "Output +" output
-			(at 50.8 114.3 180)
+		(pin "Input 4" input
+			(at 50.8 100.33 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "79f3edfa-dfc6-4d02-8bfc-b3cad1b1965e")
+			(uuid "512a50ef-c404-4b4c-9a06-059fd46e7e6a")
 		)
 		(instances
 			(project "DMH_Mixer_PCB"
@@ -209,8 +209,8 @@
 		)
 	)
 	(sheet
-		(at 17.78 76.2)
-		(size 20.32 50.8)
+		(at 15.24 76.2)
+		(size 22.86 50.8)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -221,7 +221,7 @@
 		)
 		(uuid "ce3fef8b-9f1d-4178-b50b-4a046c030679")
 		(property "Sheetname" "Inputs and Outputs"
-			(at 17.78 75.4884 0)
+			(at 15.24 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -230,7 +230,7 @@
 			)
 		)
 		(property "Sheetfile" "Inputs_and_Outputs.kicad_sch"
-			(at 17.78 127.5846 0)
+			(at 15.24 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -269,7 +269,7 @@
 			)
 			(uuid "adc5b924-f388-466a-a9ba-ec9278fe912f")
 		)
-		(pin "Output - Jack" input
+		(pin "Output Jack" input
 			(at 38.1 106.68 0)
 			(effects
 				(font
@@ -277,9 +277,9 @@
 				)
 				(justify right)
 			)
-			(uuid "2bcb9e34-83c9-4b86-bcce-78c0146b1687")
+			(uuid "ace081b2-dde9-4a73-9613-620b06aa28eb")
 		)
-		(pin "Output + Jack" input
+		(pin "Clipped Output Jack" input
 			(at 38.1 110.49 0)
 			(effects
 				(font
@@ -287,17 +287,17 @@
 				)
 				(justify right)
 			)
-			(uuid "9c2361d8-21f6-459b-a5c3-814c783b040b")
+			(uuid "b03b52e1-6235-4013-bbe0-9a03e9ad56da")
 		)
-		(pin "Output Clipped" input
-			(at 38.1 114.3 0)
+		(pin "Input 4 Jack" output
+			(at 38.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0ec817d7-57d0-497a-a723-53ea6e9c7180")
+			(uuid "a3b129ef-8d18-4ca6-bfe5-bfabef35f99f")
 		)
 		(instances
 			(project "DMH_Mixer_PCB"

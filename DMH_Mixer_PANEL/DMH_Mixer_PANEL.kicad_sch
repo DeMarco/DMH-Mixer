@@ -1269,7 +1269,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Out +"
+		(property "Value" "Out"
 			(at 66.04 228.5999 0)
 			(effects
 				(font
@@ -1336,7 +1336,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Out -"
+		(property "Value" "Clip"
 			(at 104.14 228.5999 0)
 			(effects
 				(font
@@ -1603,7 +1603,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Input 3"
+		(property "Value" "In 3"
 			(at 142.24 215.8999 0)
 			(effects
 				(font
@@ -1670,7 +1670,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Input 4"
+		(property "Value" "In 4"
 			(at 167.64 215.8999 0)
 			(effects
 				(font
@@ -1804,7 +1804,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Input 1"
+		(property "Value" "In 1"
 			(at 66.04 215.8999 0)
 			(effects
 				(font
@@ -2017,7 +2017,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Input 2"
+		(property "Value" "In 2"
 			(at 104.14 215.8999 0)
 			(effects
 				(font
