@@ -636,14 +636,6 @@
     [
       "ce3fef8b-9f1d-4178-b50b-4a046c030679",
       "Inputs and Outputs"
-    ],
-    [
-      "7ad2d702-dfb7-4d49-a82d-34430dd5948f",
-      "Core Circuit"
-    ],
-    [
-      "0cdf34b2-39cd-4d9e-981a-97cd34791509",
-      "Power"
     ]
   ],
   "text_variables": {}
