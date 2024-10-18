@@ -525,7 +525,7 @@
 	(footprint "SynthStuff:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 		(layer "F.Cu")
 		(uuid "0a7b43df-68a2-409c-92e5-58bef7456bf5")
-		(at 80.5 173.25 90)
+		(at 80.75 173.25 90)
 		(descr "Potentiometer, vertical, 9mm, single, http://www.taiwanalpha.com.tw/downloads?target=products&id=113")
 		(tags "potentiometer vertical 9mm single")
 		(property "Reference" "RV4"
@@ -11281,7 +11281,7 @@
 	(footprint "SynthStuff:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 		(layer "F.Cu")
 		(uuid "b4ac8cb8-0364-4f4d-8338-29dbce6a6a65")
-		(at 80.5 101.75 90)
+		(at 80.75 101.75 90)
 		(descr "Potentiometer, vertical, 9mm, single, http://www.taiwanalpha.com.tw/downloads?target=products&id=113")
 		(tags "potentiometer vertical 9mm single")
 		(property "Reference" "RV2"
@@ -11911,7 +11911,7 @@
 	(footprint "SynthStuff:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 		(layer "F.Cu")
 		(uuid "cfb6839d-1dfe-4259-bdf4-417fc90a57ac")
-		(at 80.5 137.5 90)
+		(at 80.75 137.5 90)
 		(descr "Potentiometer, vertical, 9mm, single, http://www.taiwanalpha.com.tw/downloads?target=products&id=113")
 		(tags "potentiometer vertical 9mm single")
 		(property "Reference" "RV3"
@@ -13918,7 +13918,7 @@
 	(footprint "SynthStuff:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 		(layer "F.Cu")
 		(uuid "e7641747-ecca-44de-9a62-d1e127d6bc33")
-		(at 80.5 66 90)
+		(at 80.75 66 90)
 		(descr "Potentiometer, vertical, 9mm, single, http://www.taiwanalpha.com.tw/downloads?target=products&id=113")
 		(tags "potentiometer vertical 9mm single")
 		(property "Reference" "RV1"
@@ -15038,24 +15038,14 @@
 		(uuid "0e4819bd-8959-445a-8ce4-b67de0c94bb4")
 	)
 	(gr_line
-		(start 83 169.25)
-		(end 83 162.25)
+		(start 83.25 169.25)
+		(end 83.25 162.25)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Cmts.User")
 		(uuid "0f15a47e-dee9-49bf-80ed-b209b2413f5f")
-	)
-	(gr_line
-		(start 79.5 58.5)
-		(end 86.5 58.5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Cmts.User")
-		(uuid "1177dcb8-14e0-46b1-8b97-c6b5a0bdafc9")
 	)
 	(gr_line
 		(start 58.5 91.25)
@@ -15079,24 +15069,14 @@
 		(uuid "133cf20b-ddc9-4495-b5ba-14043e19ecac")
 	)
 	(gr_line
-		(start 79.5 94.25)
-		(end 86.5 94.25)
+		(start 79.75 94.25)
+		(end 86.75 94.25)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Cmts.User")
 		(uuid "14871d27-6907-48e1-8296-f95a59f5500b")
-	)
-	(gr_line
-		(start 83 62)
-		(end 83 55)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Cmts.User")
-		(uuid "2e6940e5-4fff-4887-9454-0522ba546618")
 	)
 	(gr_circle
 		(center 75 190.25)
@@ -15196,8 +15176,8 @@
 		(uuid "4faa2c43-5893-4da3-92cd-b3c6500158be")
 	)
 	(gr_circle
-		(center 83 165.75)
-		(end 83 169.25)
+		(center 83.25 165.75)
+		(end 83.25 169.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -15227,8 +15207,8 @@
 		(uuid "56c94a00-1570-4242-ba2d-b280409b2e39")
 	)
 	(gr_line
-		(start 79.5 165.75)
-		(end 86.5 165.75)
+		(start 79.75 165.75)
+		(end 86.75 165.75)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -15359,8 +15339,8 @@
 		(uuid "a105867a-05ba-4697-ade9-0b76ddff9f68")
 	)
 	(gr_line
-		(start 79.5 130)
-		(end 86.5 130)
+		(start 79.75 130)
+		(end 86.75 130)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -15408,9 +15388,19 @@
 		(layer "Cmts.User")
 		(uuid "c3b7d000-5035-4c49-b303-1db5325acba6")
 	)
+	(gr_line
+		(start 79.75 58.5)
+		(end 86.75 58.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "c4ba0024-8b9f-47bc-89e4-2cc02bd2863f")
+	)
 	(gr_circle
-		(center 83 130)
-		(end 83 133.5)
+		(center 83.25 130)
+		(end 83.25 133.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -15420,8 +15410,8 @@
 		(uuid "c839c6d3-952e-4411-86af-5594bfebd02a")
 	)
 	(gr_circle
-		(center 83 58.5)
-		(end 83 62)
+		(center 83.25 58.5)
+		(end 83.25 62)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -15431,8 +15421,8 @@
 		(uuid "dc008bd8-a7e0-4084-ab42-eca2933a0563")
 	)
 	(gr_line
-		(start 83 97.75)
-		(end 83 90.75)
+		(start 83.25 97.75)
+		(end 83.25 90.75)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -15441,8 +15431,8 @@
 		(uuid "ee8d6902-c54b-49b0-bf71-eabb193d86e0")
 	)
 	(gr_circle
-		(center 83 94.25)
-		(end 83 97.75)
+		(center 83.25 94.25)
+		(end 83.25 97.75)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -15462,8 +15452,18 @@
 		(uuid "f6fd59ff-ccc2-4bee-a0e4-89c877066825")
 	)
 	(gr_line
-		(start 83 133.5)
-		(end 83 126.5)
+		(start 83.25 62)
+		(end 83.25 55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "f723f6ee-61a5-48ef-bb5e-b19485e24c97")
+	)
+	(gr_line
+		(start 83.25 133.5)
+		(end 83.25 126.5)
 		(stroke
 			(width 0.1)
 			(type default)
