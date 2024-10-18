@@ -3187,7 +3187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04369ada-2f80-4f55-b63a-465d93e86795")
-		(property "Reference" "R14"
+		(property "Reference" "R4"
 			(at 88.9 82.55 90)
 			(effects
 				(font
@@ -3195,7 +3195,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "27k"
 			(at 88.9 85.09 90)
 			(effects
 				(font
@@ -3247,7 +3247,7 @@
 		(instances
 			(project "DMH_Mixer_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R14")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3329,7 +3329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1015a80c-54f3-448c-bd53-56042b5fa3e1")
-		(property "Reference" "R12"
+		(property "Reference" "R20"
 			(at 241.3 97.79 90)
 			(effects
 				(font
@@ -3389,7 +3389,7 @@
 		(instances
 			(project "DMH_Mixer_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R12")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -3405,7 +3405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cb69362-1b7a-4bd5-b3ba-440f31ebd5e4")
-		(property "Reference" "R19"
+		(property "Reference" "R11"
 			(at 78.74 118.1099 0)
 			(effects
 				(font
@@ -3467,7 +3467,7 @@
 		(instances
 			(project "DMH_Mixer_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R19")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3551,7 +3551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f2831c5-f289-4171-a24b-b8bd79cd0410")
-		(property "Reference" "R9"
+		(property "Reference" "R17"
 			(at 171.45 95.25 90)
 			(effects
 				(font
@@ -3611,7 +3611,7 @@
 		(instances
 			(project "DMH_Mixer_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R9")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3627,7 +3627,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "274c5288-c902-4031-948a-1277dad324eb")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 88.9 69.85 90)
 			(effects
 				(font
@@ -3687,7 +3687,7 @@
 		(instances
 			(project "DMH_Mixer_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3780,7 +3780,6 @@
 	(symbol
 		(lib_id "Switch:SW_SPDT_321")
 		(at 55.88 111.76 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3788,7 +3787,7 @@
 		(dnp no)
 		(uuid "3ca4644a-a363-4f6a-b271-6882f4ed177d")
 		(property "Reference" "SW3"
-			(at 55.88 120.65 0)
+			(at 55.88 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3796,7 +3795,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT_321"
-			(at 55.88 118.11 0)
+			(at 55.88 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3804,7 +3803,7 @@
 			)
 		)
 		(property "Footprint" "SynthStuff:Toggle_Switch_THT"
-			(at 55.88 101.6 0)
+			(at 55.88 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3813,7 +3812,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 104.14 0)
+			(at 55.88 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3831,7 +3830,7 @@
 			)
 		)
 		(property "Function" "Line / Euro"
-			(at 55.88 106.172 0)
+			(at 55.88 117.348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4107,7 +4106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "573234d9-e229-4345-bda7-15a83cb912bf")
-		(property "Reference" "R8"
+		(property "Reference" "R7"
 			(at 88.9 120.65 90)
 			(effects
 				(font
@@ -4167,7 +4166,7 @@
 		(instances
 			(project "DMH_Mixer_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R8")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4259,7 +4258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "605da3af-5dee-4700-86ca-6fb915614833")
-		(property "Reference" "R17"
+		(property "Reference" "R9"
 			(at 78.74 67.3099 0)
 			(effects
 				(font
@@ -4321,7 +4320,7 @@
 		(instances
 			(project "DMH_Mixer_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R17")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4421,7 +4420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cb01760-85be-41b5-a24f-9327b4fcc2b2")
-		(property "Reference" "R20"
+		(property "Reference" "R12"
 			(at 78.74 143.5099 0)
 			(effects
 				(font
@@ -4483,7 +4482,7 @@
 		(instances
 			(project "DMH_Mixer_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R20")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -4499,7 +4498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dcc7716-be7b-4b0a-b536-495de49290d8")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 88.9 95.25 90)
 			(effects
 				(font
@@ -4559,7 +4558,7 @@
 		(instances
 			(project "DMH_Mixer_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4568,7 +4567,6 @@
 	(symbol
 		(lib_id "Switch:SW_SPDT_321")
 		(at 55.88 86.36 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4576,7 +4574,7 @@
 		(dnp no)
 		(uuid "75f35155-68b6-4b8a-8332-4b7de375c80b")
 		(property "Reference" "SW2"
-			(at 55.88 95.25 0)
+			(at 55.88 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4584,7 +4582,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT_321"
-			(at 55.88 92.71 0)
+			(at 55.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4592,7 +4590,7 @@
 			)
 		)
 		(property "Footprint" "SynthStuff:Toggle_Switch_THT"
-			(at 55.88 76.2 0)
+			(at 55.88 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4601,7 +4599,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 78.74 0)
+			(at 55.88 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4619,7 +4617,7 @@
 			)
 		)
 		(property "Function" "Line / Euro"
-			(at 55.88 80.772 0)
+			(at 55.88 91.948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4657,7 +4655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87458dee-3fe6-4ce9-a195-2ba2a4a31755")
-		(property "Reference" "R7"
+		(property "Reference" "R16"
 			(at 215.9 74.93 90)
 			(effects
 				(font
@@ -4717,7 +4715,7 @@
 		(instances
 			(project "DMH_Mixer_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R7")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -4913,7 +4911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91cdffea-48cc-4aa7-a41b-4578295085ad")
-		(property "Reference" "R13"
+		(property "Reference" "R2"
 			(at 88.9 57.15 90)
 			(effects
 				(font
@@ -4921,7 +4919,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "27k"
 			(at 88.9 59.69 90)
 			(effects
 				(font
@@ -4973,7 +4971,7 @@
 		(instances
 			(project "DMH_Mixer_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R13")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5055,7 +5053,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b24906d-91d2-4254-8b52-019438624653")
-		(property "Reference" "R10"
+		(property "Reference" "R19"
 			(at 215.9 120.65 90)
 			(effects
 				(font
@@ -5115,7 +5113,7 @@
 		(instances
 			(project "DMH_Mixer_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R10")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -5227,7 +5225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5f5a398-6835-4654-8c6c-86a0243f8dc4")
-		(property "Reference" "R4"
+		(property "Reference" "R13"
 			(at 114.3 57.15 90)
 			(effects
 				(font
@@ -5287,7 +5285,7 @@
 		(instances
 			(project "DMH_Mixer_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R4")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -5519,7 +5517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b844941b-670a-4b62-8c50-83c9681bfd73")
-		(property "Reference" "R15"
+		(property "Reference" "R6"
 			(at 88.9 107.95 90)
 			(effects
 				(font
@@ -5527,7 +5525,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "27k"
 			(at 88.9 110.49 90)
 			(effects
 				(font
@@ -5579,7 +5577,7 @@
 		(instances
 			(project "DMH_Mixer_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R15")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5595,7 +5593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba280c43-7332-4777-a7df-a81e06d98bd3")
-		(property "Reference" "R16"
+		(property "Reference" "R8"
 			(at 88.9 133.35 90)
 			(effects
 				(font
@@ -5603,7 +5601,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "27k"
 			(at 88.9 135.89 90)
 			(effects
 				(font
@@ -5655,7 +5653,7 @@
 		(instances
 			(project "DMH_Mixer_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R16")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -5775,7 +5773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdfc9fec-365b-41e7-866c-2823e4e17009")
-		(property "Reference" "R18"
+		(property "Reference" "R10"
 			(at 78.74 92.7099 0)
 			(effects
 				(font
@@ -5837,7 +5835,7 @@
 		(instances
 			(project "DMH_Mixer_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R18")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5846,7 +5844,6 @@
 	(symbol
 		(lib_id "Switch:SW_SPDT_321")
 		(at 55.88 60.96 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5854,7 +5851,7 @@
 		(dnp no)
 		(uuid "c5cf205f-bca5-41d4-b876-6313e4b37b2d")
 		(property "Reference" "SW1"
-			(at 55.88 69.85 0)
+			(at 55.88 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5862,7 +5859,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT_321"
-			(at 55.88 67.31 0)
+			(at 55.88 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5870,7 +5867,7 @@
 			)
 		)
 		(property "Footprint" "SynthStuff:Toggle_Switch_THT"
-			(at 55.88 50.8 0)
+			(at 55.88 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5879,7 +5876,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 53.34 0)
+			(at 55.88 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5897,7 +5894,7 @@
 			)
 		)
 		(property "Function" "Line / Euro"
-			(at 55.88 55.372 0)
+			(at 55.88 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6048,7 +6045,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd3f2c01-3273-465c-8aa3-16dd452ee4ef")
-		(property "Reference" "R11"
+		(property "Reference" "R18"
 			(at 200.66 119.3799 0)
 			(effects
 				(font
@@ -6110,7 +6107,7 @@
 		(instances
 			(project "DMH_Mixer_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R11")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -6262,7 +6259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e69c8380-e79e-4a1e-bd78-44d1882d6bb0")
-		(property "Reference" "R6"
+		(property "Reference" "R15"
 			(at 152.4 57.15 90)
 			(effects
 				(font
@@ -6322,7 +6319,7 @@
 		(instances
 			(project "DMH_Mixer_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R6")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -6422,7 +6419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea8b9050-4dca-4560-979d-ec32be03a805")
-		(property "Reference" "R5"
+		(property "Reference" "R14"
 			(at 133.35 69.85 90)
 			(effects
 				(font
@@ -6482,7 +6479,7 @@
 		(instances
 			(project "DMH_Mixer_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R5")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -6623,7 +6620,6 @@
 	(symbol
 		(lib_id "Switch:SW_SPDT_321")
 		(at 55.88 137.16 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6631,7 +6627,7 @@
 		(dnp no)
 		(uuid "f862ee36-ecde-4acc-a734-1a47527aacbe")
 		(property "Reference" "SW4"
-			(at 55.88 146.05 0)
+			(at 55.88 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6639,7 +6635,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT_321"
-			(at 55.88 143.51 0)
+			(at 55.88 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6647,7 +6643,7 @@
 			)
 		)
 		(property "Footprint" "SynthStuff:Toggle_Switch_THT"
-			(at 55.88 127 0)
+			(at 55.88 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6656,7 +6652,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 129.54 0)
+			(at 55.88 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6674,7 +6670,7 @@
 			)
 		)
 		(property "Function" "Line / Euro"
-			(at 55.88 131.572 0)
+			(at 55.88 142.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
