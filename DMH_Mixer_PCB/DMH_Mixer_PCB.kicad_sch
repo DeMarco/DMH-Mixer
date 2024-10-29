@@ -22,16 +22,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 110.49) (xy 50.8 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17e4b383-589c-43bb-9ebe-a3804d2a2635")
-	)
-	(wire
-		(pts
 			(xy 38.1 92.71) (xy 50.8 92.71)
 		)
 		(stroke
@@ -170,16 +160,6 @@
 			)
 			(uuid "ff39cb94-c18b-4348-bcbb-f53ab4becba5")
 		)
-		(pin "Clipped Output" output
-			(at 50.8 110.49 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "41f612df-e051-4990-9860-655b0a9f84d4")
-		)
 		(pin "Output" output
 			(at 50.8 106.68 180)
 			(effects
@@ -278,16 +258,6 @@
 				(justify right)
 			)
 			(uuid "ace081b2-dde9-4a73-9613-620b06aa28eb")
-		)
-		(pin "Clipped Output Jack" input
-			(at 38.1 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "b03b52e1-6235-4013-bbe0-9a03e9ad56da")
 		)
 		(pin "Input 4 Jack" output
 			(at 38.1 100.33 0)

@@ -985,12 +985,6 @@
 		)
 	)
 	(junction
-		(at 52.07 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "027fb366-1cb5-44dd-8988-45c93a1077e1")
-	)
-	(junction
 		(at 133.35 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1061,12 +1055,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f94a83f-bb97-4083-bc01-962b9c3f0cf5")
-	)
-	(junction
-		(at 158.75 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85ac9203-473e-4cc9-9c63-3f52e971141f")
 	)
 	(junction
 		(at 52.07 133.35)
@@ -1146,11 +1134,17 @@
 		(color 0 0 0 0)
 		(uuid "ea97e038-9af3-45ed-a6de-4fb9fe86d12a")
 	)
-	(junction
+	(no_connect
+		(at 158.75 90.17)
+		(uuid "1ef272b0-9003-4848-b4de-b0c488ea85bb")
+	)
+	(no_connect
+		(at 198.12 82.55)
+		(uuid "921a64ef-5f72-4f5c-88ee-69136fe08bfb")
+	)
+	(no_connect
 		(at 158.75 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9d32134-a859-4be5-98c7-f4ec03274b69")
+		(uuid "d866f8ae-a4e3-497c-978c-a3fc24081b44")
 	)
 	(wire
 		(pts
@@ -1181,16 +1175,6 @@
 			(type default)
 		)
 		(uuid "0bf7e46e-eca7-47e8-975f-976f0de158e7")
-	)
-	(wire
-		(pts
-			(xy 44.45 163.83) (xy 107.95 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0db050d9-0d6b-40c6-90b6-e3b58b404db8")
 	)
 	(wire
 		(pts
@@ -1241,16 +1225,6 @@
 			(type default)
 		)
 		(uuid "1a9d4452-7a9e-4204-a345-cca5897ec85d")
-	)
-	(wire
-		(pts
-			(xy 208.28 82.55) (xy 198.12 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ab2df52-b701-4d58-9a89-b6ca05310d20")
 	)
 	(wire
 		(pts
@@ -1331,16 +1305,6 @@
 			(type default)
 		)
 		(uuid "2a97f0b8-03c4-4bbf-8010-b027f02ace00")
-	)
-	(wire
-		(pts
-			(xy 52.07 158.75) (xy 52.07 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "304654a5-9562-4fce-a026-01e25e5932ba")
 	)
 	(wire
 		(pts
@@ -1434,26 +1398,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 99.06) (xy 208.28 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c421427-057c-4d01-97dd-a000ca1fec5b")
-	)
-	(wire
-		(pts
-			(xy 110.49 138.43) (xy 158.75 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d41f09f-cde4-4376-809e-5bb2e915a380")
-	)
-	(wire
-		(pts
 			(xy 198.12 87.63) (xy 200.66 87.63)
 		)
 		(stroke
@@ -1474,16 +1418,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 90.17) (xy 175.26 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "519e58e5-003e-4a78-87f1-31d0ee9413ba")
-	)
-	(wire
-		(pts
 			(xy 133.35 95.25) (xy 133.35 92.71)
 		)
 		(stroke
@@ -1501,16 +1435,6 @@
 			(type default)
 		)
 		(uuid "59e0f169-1f6a-4974-87f3-731f2418668a")
-	)
-	(wire
-		(pts
-			(xy 110.49 161.29) (xy 110.49 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a65fdd3-72e6-4096-861b-b082e9af72f6")
 	)
 	(wire
 		(pts
@@ -1604,16 +1528,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 99.06) (xy 208.28 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7721b3b6-fb0b-4206-8acc-ce3bcd426b68")
-	)
-	(wire
-		(pts
 			(xy 44.45 59.69) (xy 74.93 59.69)
 		)
 		(stroke
@@ -1654,16 +1568,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 158.75) (xy 52.07 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87a8f60f-5c44-47b0-8be5-49e25b82ecd9")
-	)
-	(wire
-		(pts
 			(xy 44.45 62.23) (xy 100.33 62.23)
 		)
 		(stroke
@@ -1701,16 +1605,6 @@
 			(type default)
 		)
 		(uuid "99c70f5c-5110-4df3-803f-85d4c2f043c8")
-	)
-	(wire
-		(pts
-			(xy 107.95 90.17) (xy 158.75 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d1bea1f-4518-4c8c-a8b4-a1e0ff8eccdd")
 	)
 	(wire
 		(pts
@@ -1791,16 +1685,6 @@
 			(type default)
 		)
 		(uuid "b43aee3e-e342-49ef-b053-ef5e326baaa5")
-	)
-	(wire
-		(pts
-			(xy 44.45 161.29) (xy 110.49 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b61b37e4-7abb-4818-bb82-d35c463e9233")
 	)
 	(wire
 		(pts
@@ -1964,16 +1848,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 163.83) (xy 107.95 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1803069-2c12-4088-b733-682a8c42edbc")
-	)
-	(wire
-		(pts
 			(xy 105.41 138.43) (xy 105.41 87.63)
 		)
 		(stroke
@@ -2024,16 +1898,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 138.43) (xy 166.37 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee253fa4-80fb-4fce-a068-ebc0a9e1cb19")
-	)
-	(wire
-		(pts
 			(xy 100.33 80.01) (xy 158.75 80.01)
 		)
 		(stroke
@@ -2064,16 +1928,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 90.17) (xy 175.26 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4c970b4-8ace-438a-bc33-bae6ac881ce3")
-	)
-	(wire
-		(pts
 			(xy 52.07 31.75) (xy 44.45 31.75)
 		)
 		(stroke
@@ -2094,7 +1948,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 133.35) (xy 52.07 158.75)
+			(xy 52.07 133.35) (xy 52.07 173.99)
 		)
 		(stroke
 			(width 0)
@@ -2180,7 +2034,7 @@
 		)
 		(uuid "84fe97f9-b97f-49e8-8379-cc1d0dab1abd")
 	)
-	(hierarchical_label "Clipped Output Jack"
+	(hierarchical_label "Output Jack"
 		(shape input)
 		(at 166.37 135.89 0)
 		(fields_autoplaced yes)
@@ -2191,18 +2045,6 @@
 			(justify left)
 		)
 		(uuid "f2fc95fe-ae5b-4d38-93a0-a68027b99ed4")
-	)
-	(hierarchical_label "Output Jack"
-		(shape input)
-		(at 166.37 138.43 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f8d89d73-b64d-4783-85d5-55186e017ad0")
 	)
 	(hierarchical_label "Input 1 Jack"
 		(shape output)
@@ -2292,87 +2134,6 @@
 			(project "DMH_Mixer_PCB_Conn"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
-		(at 39.37 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2508a574-b897-42fa-ab50-18a854c04a6a")
-		(property "Reference" "J6"
-			(at 38.735 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 38.735 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
-			(at 39.37 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
-			(at 39.37 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "Out"
-			(at 39.37 169.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(pin "T"
-			(uuid "cb6fd889-f6dd-4b83-99ca-744e98204db9")
-		)
-		(pin "TN"
-			(uuid "d6e1f9cd-e673-45a2-9920-65911d6ceee6")
-		)
-		(pin "S"
-			(uuid "45c70977-d202-4dab-ab7d-9feb94e2fa8c")
-		)
-		(instances
-			(project "DMH_Mixer_PCB_Conn"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
-					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -2496,7 +2257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Function" "Clip"
+		(property "Function" "Out"
 			(at 39.37 143.764 0)
 			(effects
 				(font
