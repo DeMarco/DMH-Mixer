@@ -1328,7 +1328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Toggle_Switch_Cutout"
+		(property "Footprint" "SynthStuff:Toggle_Switch_APEM_Cutout"
 			(at 101.6 228.6 0)
 			(effects
 				(font

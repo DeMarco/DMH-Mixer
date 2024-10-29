@@ -30,10 +30,6 @@
 		(at 38.1 92.71)
 		(uuid "ade58c44-cb1a-4f45-a5e2-635379490e93")
 	)
-	(no_connect
-		(at 38.1 110.49)
-		(uuid "df510e87-fb15-4007-a1d6-1df9eb7afbb1")
-	)
 	(sheet
 		(at 15.24 76.2)
 		(size 22.86 50.8)
@@ -104,16 +100,6 @@
 				(justify right)
 			)
 			(uuid "b173182d-3602-4e2d-a417-03ac10bf90a4")
-		)
-		(pin "Clipped Output Jack" input
-			(at 38.1 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "bc5df426-6735-4505-b045-7d0196d05974")
 		)
 		(pin "Input 4 Jack" output
 			(at 38.1 100.33 0)
