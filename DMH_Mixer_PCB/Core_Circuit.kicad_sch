@@ -1695,7 +1695,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 59.69) (xy 165.1 40.64)
+			(xy 165.1 59.69) (xy 165.1 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1775,7 +1775,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 40.64) (xy 147.32 40.64)
+			(xy 165.1 41.91) (xy 147.32 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1895,7 +1895,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 40.64) (xy 147.32 45.72)
+			(xy 147.32 41.91) (xy 147.32 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2005,7 +2005,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 40.64) (xy 137.16 40.64)
+			(xy 118.11 41.91) (xy 137.16 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2275,7 +2275,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 40.64) (xy 118.11 69.85)
+			(xy 118.11 41.91) (xy 118.11 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2345,7 +2345,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 40.64) (xy 137.16 45.72)
+			(xy 137.16 41.91) (xy 137.16 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3671,7 +3671,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SynthStuff:PinHeader_2x03_P2.54mm_Vertical_142536"
+		(property "Footprint" "SynthStuff:Toggle_Switch_2_Poles_THT"
 			(at 139.7 50.8 0)
 			(effects
 				(font
@@ -3696,6 +3696,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 144.78 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -4627,28 +4635,28 @@
 			)
 		)
 		(pin "3"
-			(uuid "9e5d02cc-65eb-478d-8a51-20a684ad24b0")
+			(uuid "9e5d02cc-65eb-478d-8a51-20a684ad24b1")
 		)
 		(pin "5"
-			(uuid "a8989ac6-51a1-4e34-bf23-5367650142d2")
+			(uuid "a8989ac6-51a1-4e34-bf23-5367650142d3")
 		)
 		(pin "7"
-			(uuid "75c2deaa-ae0a-4884-9126-36d8e4e0cdac")
+			(uuid "75c2deaa-ae0a-4884-9126-36d8e4e0cdad")
 		)
 		(pin "8"
-			(uuid "bbf39f52-1a43-41cb-87a2-37c828f9e555")
+			(uuid "bbf39f52-1a43-41cb-87a2-37c828f9e556")
 		)
 		(pin "6"
-			(uuid "d5c81c7a-d9b7-43ad-892b-f62777f01985")
+			(uuid "d5c81c7a-d9b7-43ad-892b-f62777f01986")
 		)
 		(pin "4"
-			(uuid "8095a3be-3021-4be6-802d-b85a55573b49")
+			(uuid "8095a3be-3021-4be6-802d-b85a55573b4a")
 		)
 		(pin "1"
-			(uuid "6e6dab3b-4d48-4092-a76c-dc5da4e89a23")
+			(uuid "6e6dab3b-4d48-4092-a76c-dc5da4e89a24")
 		)
 		(pin "2"
-			(uuid "4654450b-56cb-4336-b1d6-da862b6619f3")
+			(uuid "4654450b-56cb-4336-b1d6-da862b6619f4")
 		)
 		(instances
 			(project ""
