@@ -475,7 +475,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "DMH_Mixer_PANEL.kicad_pro",
+    "filename": "DMH_Mixer_6ch_PANEL.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -548,7 +548,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Gerbers/",
+      "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -563,7 +563,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "DMH_Mixer_PANEL_BoM.csv",
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -579,13 +579,13 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Reference",
           "name": "Reference",
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -594,10 +594,10 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": false
+          "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -609,34 +609,16 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Function",
-          "name": "Function",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "",
+      "name": "Grouped By Value",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -673,6 +655,7 @@
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
+    "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -683,18 +666,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "DMH_Mixer_PANEL.kicad_sch",
-        "name": "DMH_Mixer_PANEL",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "filename": "DMH_Mixer_6ch_PANEL.kicad_sch",
+        "name": "DMH_Mixer_6ch_PANEL",
+        "uuid": "a552705f-a9fe-462e-9913-5cfcc08b233c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "H5-20,#PWR2",
     "variants": []
   },
   "sheets": [
     [
       "a552705f-a9fe-462e-9913-5cfcc08b233c",
-      "Root"
+      "DMH_Mixer_6ch_PANEL"
     ]
   ],
   "text_variables": {},
